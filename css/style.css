@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #fdf6f0;
+  color: #333;
+}
+
+header {
+  background: #ffe5b4;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+a {
+  color: #b35c00;
+  text-decoration: none;
+}
+
+footer {
+  background: #ffe5b4;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  nav li {
+    display: block;
+    margin: 10px 0;
+  }
+}
